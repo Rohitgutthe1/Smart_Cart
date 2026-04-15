@@ -1,0 +1,53 @@
+SmartCart/
+│
+├── src/
+│   ├── model/
+│   │   ├── Product.java
+│   │   ├── User.java
+│   │   ├── Order.java
+│   │   ├── Category.java
+│   │   └── Cart.java
+│   │
+│   ├── dao/
+│   │   ├── ProductDAO.java
+│   │   ├── UserDAO.java
+│   │   ├── OrderDAO.java
+│   │   ├── CategoryDAO.java
+│   │   └── CartDAO.java
+│   │
+│   ├── controller/
+│   │   ├── LoginServlet.java
+│   │   ├── RegisterServlet.java
+│   │   ├── ProductServlet.java
+│   │   ├── CartServlet.java
+│   │   ├── OrderServlet.java
+│   │   └── AdminServlet.java
+│   │
+│   └── util/
+│       └── DBConnection.java
+│
+├── WebContent/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   ├── uploads/
+│   │
+│   ├── user/
+│   │   ├── login.jsp
+│   │   ├── register.jsp
+│   │   ├── home.jsp
+│   │   ├── products.jsp
+│   │   ├── cart.jsp
+│   │   └── orders.jsp
+│   │
+│   ├── admin/
+│   │   ├── admin-login.jsp
+│   │   ├── dashboard.jsp
+│   │   ├── manage-products.jsp
+│   │   ├── add-product.jsp
+│   │   ├── edit-product.jsp
+│   │   ├── manage-users.jsp
+│   │   └── manage-orders.jsp
+│
+└── WEB-INF/
+    └── web.xml

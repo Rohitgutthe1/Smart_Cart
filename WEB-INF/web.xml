@@ -1,0 +1,26 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!-- 🔹 DISPLAY NAME -->
+    <display-name>SmartCart</display-name>
+
+    <!-- 🔹 WELCOME FILE -->
+    <welcome-file-list>
+        <welcome-file>user/home.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- 🔐 SESSION CONFIG -->
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+    <!-- ❌ ERROR PAGE (OPTIONAL) -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/user/error.jsp</location>
+    </error-page>
+
+</web-app>
